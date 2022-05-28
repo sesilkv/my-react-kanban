@@ -1,14 +1,15 @@
 import React from 'react'
 import Tag from './Tag'
+import styles from '../../style/card.module.css'
 
 const TagList = () => {
   return (
-    <>
-        <Tag />
-        <Tag />
-        <Tag />
-        <Tag />
-    </>
+    <div className={styles.tagContainer}>
+        <Tag>Website</Tag>
+        <Tag>UX</Tag>
+        <Tag>UI</Tag>
+        <Tag>Wireframe</Tag>
+    </div>
   )
 }
 

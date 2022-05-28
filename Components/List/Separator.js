@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from '../../style/list.module.css'
 
 const Separator = () => {
   return (
-    <div>Separator</div>
+    <div className={styles.separator}>
+      <hr color='#DCDCFF'/>
+    </div>
   )
 }
 

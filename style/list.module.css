@@ -1,0 +1,48 @@
+/* Index */
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 20px 10px;
+}
+
+/* Header */
+
+.headerContainer {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.imageContainer {
+    border-radius: 10px;
+}
+
+.coverImageContainer{
+    padding: 10px;
+}
+
+/* Meta */
+
+.metaContainer {
+    padding: 10px 15px;
+}
+
+.metaTitle {
+    color: #2E2E4D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.metaDescription{
+    color: #5E5E7A;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 0px 20px 0px;
+}
+
+/* Separator */
+
+.separator{
+    padding: 10px 0px;
+}

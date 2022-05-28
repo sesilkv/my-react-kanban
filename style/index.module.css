@@ -1,0 +1,10 @@
+.boardContainer {
+    background-color: #F2F2FA;
+    padding: 20px 20px;
+    font-family: 'Niramit', sans-serif;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: row;
+}

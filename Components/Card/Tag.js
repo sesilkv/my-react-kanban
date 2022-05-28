@@ -1,8 +1,11 @@
 import React from 'react'
+import styles from '../../style/card.module.css'
 
-const Tag = () => {
+const Tag = ({ children }) => {
   return (
-    <div>Tag</div>
+    <div className={styles.tags}>
+      {children}
+    </div>
   )
 }
 
